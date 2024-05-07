@@ -1,0 +1,4 @@
+/* es para que pueda hacer los imports de tailwindcss: */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
