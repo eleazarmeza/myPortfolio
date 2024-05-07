@@ -1,0 +1,1 @@
+export { default as Videogame } from './Videogame';
