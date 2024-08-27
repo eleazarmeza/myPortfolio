@@ -52,11 +52,13 @@ const Header = () => {
                     <li className="mr-4">
                         <Link to={ROUTES.HOME} className="text-white hover:text-gray-300">Resume</Link>
                     </li>
+                    {/*
                     <button className="bg-purple-800 hover:bg-purple-900 text-white font-normal py-0 px-3 rounded-2xl"
                         onClick={downloadResume}
                     >
                         Download Resume
                     </button>
+                    */}
                     <div className="m-1"></div>
                 </ul>
             </div>
