@@ -1,4 +1,4 @@
-import { Amazon, Home, IOSapp, Network, Videogame } from '../pages';
+import { Amazon, Home, IOSapp, Network, Titanic, Videogame } from '../pages';
 import { RouteObject, createBrowserRouter } from 'react-router-dom';
 import PrivateRouter from './PrivateRouter';
 import PublicRouter from './PublicRouter';
@@ -14,6 +14,7 @@ const routes: RouteObject[] = [
             {path: ROUTES.AMAZON, element: <Amazon />},
             {path: ROUTES.NETWORK, element: <Network />},
             {path: ROUTES.VIDEOGAME, element: <Videogame />},
+            {path: ROUTES.TITANIC, element: <Titanic />},
 
 
         ],
