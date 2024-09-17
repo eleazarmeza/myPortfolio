@@ -5,5 +5,6 @@ export const ROUTES = {
     NETWORK: '/network',
     VIDEOGAME: '/videogame',
     IOSAPP: '/iosapp',
+    TITANIC: '/titanic',
 }
 // Se crea este file por orden
