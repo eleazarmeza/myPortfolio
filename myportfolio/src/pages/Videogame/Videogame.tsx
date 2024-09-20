@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import VideogameImage from '../../assets/Videogame.png';
+import fr from '../../assets/fr.png';
 
 const Videogame = () => {
     return (
@@ -10,10 +11,9 @@ const Videogame = () => {
                 <img src={VideogameImage} alt="Presentation" className="max-w-4xl w-full mb-6" />
 
                 {/* Text */}
-                <p className="text-lg mb-1">Check the game in action!</p>
-                <div className="m-1">Soundtrack is as good as a FIFA game.</div>
+                <p className="text-lg mb-1">You can check the game in action, Soundtrack is awesome!</p>
                 <div className="m-3"></div>
-
+                <br></br>
                 {/* Links */}
                 <div className="flex justify-center"> {/* Horizontal list */}
                     {/* Group 1 */}
@@ -54,8 +54,15 @@ const Videogame = () => {
                             Check gameplay video
                         </Link>
                     </div>
+
                 </div>
+                
+                <br></br>
+                <br></br>
+                <p className="text-lg mb-1">Also, a Dashboard was included.</p>
+                <img src={fr} alt="Presentation" className="max-w-6xl w-full mb-8 justify-center" />
             </div>
+            
             <div className="m-10"></div>
         </div>
         

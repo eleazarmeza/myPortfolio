@@ -37,11 +37,11 @@ const Header = () => {
 
                 <ul className="flex justify-end flex-grow">
                     <li className="mr-4">
-                        <Link to={ROUTES.TITANIC} className="text-white hover:text-gray-300">Titanic Analysis</Link>
+                        <Link to={ROUTES.TITANIC} className="text-white hover:text-gray-300">Titanic AI-Analysis</Link>
                     </li>
 
                     <li className="mr-4">
-                        <Link to={ROUTES.AMAZON} className="text-white hover:text-gray-300">AWS Statistics</Link>
+                        <Link to={ROUTES.AMAZON} className="text-white hover:text-gray-300">AI for AWS</Link>
                     </li>
                     <li className="mr-4">
                         <Link to={ROUTES.IOSAPP} className="text-white hover:text-gray-300">IOS App</Link>
