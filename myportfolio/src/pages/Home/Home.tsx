@@ -8,13 +8,15 @@ const Home: React.FC = () => {
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-4">EDUCATION</h2>
         <p className="mb-2">Tecnológico de Monterrey</p>
-        <p className="mb-2">Computer Science (Major in Artificial Intelligence)</p>
+        <p className="mb-2">Computer Science (Major: Artificial Intelligence)</p>
         <ul className="list-disc pl-8">
           <li>GPA: 3.9 / Grade: 94</li>
           <li>7th semester out of 8</li>
+          <li>Contact: <strong>a01661792@tec.mx</strong></li>
         </ul>
+        <div></div>
       </div>
-
+      
       {/* OBJECTIVE */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-4">OBJECTIVE</h2>
