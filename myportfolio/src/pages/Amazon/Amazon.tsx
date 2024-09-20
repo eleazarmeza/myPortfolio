@@ -9,6 +9,7 @@ import medio from '../../assets/medio2.png';
 
 const Amazon = () => {
     return (
+        <div className=''>
         <div className="mt-20">
             
         <div className="flex flex-col items-center justify-center">
@@ -41,10 +42,12 @@ const Amazon = () => {
                 <img src={dash} alt="Presentation" className="max-w-6xl w-full mb-8" />
             {/* Links */}
             <div className="m-5"></div>
-
+            
+            </div>
         </div>
     </div>
     );
 };
 
 export default Amazon;
+

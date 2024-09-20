@@ -2,6 +2,9 @@ module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
       keyframes: {
         animatedgradient: {
           '0%': { backgroundPosition: '0% 50%' },
