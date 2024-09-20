@@ -41,7 +41,7 @@ const Header = () => {
                     </li>
 
                     <li className="mr-4">
-                        <Link to={ROUTES.AMAZON} className="text-white hover:text-gray-300">AI for AWS</Link>
+                        <Link to={ROUTES.AMAZON} className="text-white hover:text-gray-300">AI for Amazon</Link>
                     </li>
                     <li className="mr-4">
                         <Link to={ROUTES.IOSAPP} className="text-white hover:text-gray-300">IOS App</Link>
