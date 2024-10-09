@@ -18,15 +18,17 @@ const Header = () => {
         <nav className="fixed top-0 w-full shadow-md z-5 bg-black bg-opacity-100 text-white p-2">
             <div className="flex justify-between items-center">
                 <div className="flex items-center">
-                    <img 
-                        src={AIImage} 
-                        alt="AI Logo" 
+                    <img
+                        src={AIImage}
+                        alt="AI Logo"
                         className="h-12 w-auto mr-2"
-                        title="hi :)" 
-                    /> 
-                    <span className="text-lg font-bold bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 text-transparent bg-clip-text animate-gradient">
+                        title="hi :)"
+                    />
+                    <span className="text-lg font-bold bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 text-transparent bg-clip-text bg-300% animate-gradient">
                         Artificial Intelligence Student Portfolio
                     </span>
+
+
                 </div>
 
                 {/* Hamburger Menu for Mobile */}

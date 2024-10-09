@@ -91,8 +91,12 @@ const Home: React.FC = () => {
           <p className="mb-2">Interests: AI, Businesses, Gym</p>
         </div>
         <div>
-          <p className="font-semibold">Achieved 1st place in "Hack4Women" Hackathon for Infosys by @adawomenccm.</p>
+          <p className="font-semibold">1st place in "Hack4Women" Hackathon for Infosys by @adawomenccm.</p>
           <p>Created a chatbot integrated in Facebook and in a web page to help women identify violence against them.</p>
+        </div>
+        <div>
+          <p className="font-semibold">3rd place in "Expo Engineering" organized by the School of Sciences and Engineering.</p>
+          <p>For the Call Center (Contact Center) web App with AI for Amazon.</p>
         </div>
       </div>
     </div>
