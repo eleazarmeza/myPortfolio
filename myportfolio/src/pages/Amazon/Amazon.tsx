@@ -28,7 +28,7 @@ const Amazon = () => {
                 No more Excel Files.</p>
                 <br></br>
                 <p className="text-lg mb-4">
-                <strong>Hundreds of hours saved</strong> from analyzing, filtering, comparing and graphing data.</p>
+                <strong>Potentially hundreds of hours saved</strong> from analyzing, filtering, comparing and graphing data.</p>
                 <br></br>
              
                 <img src={avrg} alt="Presentation" className="max-w-6xl w-full mb-8" />
