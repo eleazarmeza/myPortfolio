@@ -4,29 +4,18 @@ const Home: React.FC = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
-      {/* EDUCATION */}
-      <div className="mb-8">
-        <h2 className="text-2xl font-bold mb-4">EDUCATION</h2>
-        <p className="mb-2">Tecnológico de Monterrey</p>
-        <p className="mb-2">Computer Science (Major: Artificial Intelligence)</p>
-        <ul className="list-disc pl-8">
-          <li>GPA: 3.9 / Grade: 94</li>
-          <li>7th semester out of 8</li>
-          <li>Contact: <strong>a01661792@tec.mx</strong></li>
-        </ul>
-        <div></div>
-      </div>
+
       
       {/* OBJECTIVE */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-4">OBJECTIVE</h2>
         <p>
-        To be able to generate solutions that could achieve substantial earnings or savings for customers through the usage of Data Science, Computer Science and Business Strategy to achieve competitive advantages that come from efficiencies that could only be achieved with the interrelation of all these disciplines, while implementing state of the art A.I. models or Systems.        </p>
+        Generated solutions that could achieve substantial earnings or savings for customers through the usage of Data Science, Computer Science and Business Strategy to achieve competitive advantages that come from efficiencies that could only be achieved with the interrelation of all these disciplines, looking forward to implement state of the art A.I. models or Systems.        </p>
       </div>
 
-      {/* SCHOOL PROJECTS */}
+      {/* PROJECTS */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold mb-4">SCHOOL PROJECTS</h2>
+        <h2 className="text-2xl font-bold mb-4">PROJECTS</h2>
         {/* Each project */}
         <div className="mb-4">
           <h3 className="text-lg font-semibold mb-2"> Researching main A.I. technicalities to develop semester project for Major in A.I. </h3>
@@ -98,6 +87,18 @@ const Home: React.FC = () => {
           <p className="font-semibold">3rd place in "Expo Engineering" organized by the School of Sciences and Engineering.</p>
           <p>For the Call Center (Contact Center) web App with AI for Amazon.</p>
         </div>
+      </div>
+            {/* EDUCATION */}
+            <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">EDUCATION</h2>
+        <p className="mb-2">Tecnológico de Monterrey</p>
+        <p className="mb-2">Computer Science (Major: Artificial Intelligence)</p>
+        <ul className="list-disc pl-8">
+          <li>GPA: 3.9 / Grade: 94</li>
+          <li>7th semester out of 8</li>
+          <li>Contact: <strong>a01661792@tec.mx</strong></li>
+        </ul>
+        <div></div>
       </div>
     </div>
   );
