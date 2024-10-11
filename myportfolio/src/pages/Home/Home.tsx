@@ -18,7 +18,7 @@ const Home: React.FC = () => {
         <h2 className="text-2xl font-bold mb-4">PROJECTS</h2>
         {/* Each project */}
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Researching main A.I. technicalities to develop semester project for Major in A.I. </h3>
+          <h3 className="text-lg font-semibold mb-2"> Researching main A.I. technicalities to develop semester project for Major in A.I. (Oracle - Bimbo) </h3>
           <ul className="list-disc pl-8">
             <li>Learning main A.I. topics to develop a solution for a client</li>
             <li>Client & problem will be unveiled in 3 weeks</li>
