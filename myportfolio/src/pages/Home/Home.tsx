@@ -18,13 +18,19 @@ const Home: React.FC = () => {
         <h2 className="text-2xl font-bold mb-4">PROJECTS</h2>
         {/* Each project */}
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Researching main A.I. technicalities to develop semester project for Major in A.I. (Oracle - Bimbo) </h3>
+          <h3 className="text-lg font-semibold mb-2"> Developing Logictics project for Major in A.I. (Oracle - Bimbo) </h3>
           <ul className="list-disc pl-8">
-            <li>Learning main A.I. topics to develop a solution for a client</li>
-            <li>Client & problem will be unveiled in 3 weeks</li>
+            <li>Developing inventory management AI for Oracle - Bimbo joint venture</li>
+            <li>Will reduce errors and time counting with Computer Vision</li>
           </ul>
         </div>
         {/* Repeat for other projects */}
+        <div className="mb-4">
+          <h3 className="text-lg font-semibold mb-2"> Developing AI for American Football University team</h3>
+          <ul className="list-disc pl-8">
+            <li>Will predict each player fisical performance</li>
+          </ul>
+        </div>
                 {/* Each project */}
                 <div className="mb-4">
           <h3 className="text-lg font-semibold mb-2">Developing Insights and Automations for Contact Center (Amazon request)</h3>
