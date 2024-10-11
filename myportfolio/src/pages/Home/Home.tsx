@@ -18,7 +18,7 @@ const Home: React.FC = () => {
         <h2 className="text-2xl font-bold mb-4">PROJECTS</h2>
         {/* Each project */}
         <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2"> Developing Logictics project for Major in A.I. (Oracle - Bimbo) </h3>
+          <h3 className="text-lg font-semibold mb-2"> Developing Logictics project for Major in AI (Oracle - Bimbo) </h3>
           <ul className="list-disc pl-8">
             <li>Developing inventory management AI for Oracle - Bimbo joint venture</li>
             <li>Will reduce errors and time counting with Computer Vision</li>
