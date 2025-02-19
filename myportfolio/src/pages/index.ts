@@ -5,3 +5,4 @@ export { Network } from './Network';
 export { Videogame } from './Videogame';
 export { Titanic } from './Titanic';
 export { DashApp } from './DashApp';
+export { Bimbo } from './Bimbo';
