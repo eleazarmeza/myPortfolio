@@ -6,6 +6,7 @@ export const ROUTES = {
     VIDEOGAME: '/videogame',
     IOSAPP: '/iosapp',
     TITANIC: '/titanic',
+    BIMBO: '/bimbo',
     MYDASH: '/dashapp'
 }
 // Se crea este file por orden

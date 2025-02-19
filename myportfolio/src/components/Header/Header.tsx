@@ -43,6 +43,9 @@ const Header = () => {
                 {/* Navigation Links */}
                 <ul className={`mr-2 text-sm flex-col md:flex md:flex-row md:items-center md:space-x-4 ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
                     <li className="my-1 md:my-0">
+                        <Link to={ROUTES.BIMBO} className="text-white hover:text-gray-300">AI Inventory Control</Link>
+                    </li>
+                    <li className="my-1 md:my-0">
                         <Link to={ROUTES.TITANIC} className="text-white hover:text-gray-300">Titanic AI-Analysis</Link>
                     </li>
                     <li className="my-1 md:my-0">
