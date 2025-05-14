@@ -40,9 +40,20 @@ const Bimbo = () => {
                 
             </div>
             <div className='mt-10'></div>
-            <p className="text-lg mb-4 flex flex-col items-center justify-center">
+  
+             <p className="text-lg mb-4 flex flex-col items-center justify-center">
             
-            Quickly view presentation.</p>
+            Please write me to a01661792@tec.mx for a live demonstration, password protected.</p>
+            <div className="flex flex-col items-center justify-center">
+            <a href='https://controldeinventario.info/' target="_blank" rel="noopener noreferrer">
+                <button className="bg-blue-500 text-white px-4 py-2 rounded ">
+                    Go to Website
+                </button>
+            </a>
+            </div>
+            <br></br>
+             <br></br>
+      
         </div>
     );
 };
