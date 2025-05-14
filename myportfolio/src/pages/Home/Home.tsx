@@ -90,20 +90,22 @@ const Home: React.FC = () => {
            <p className="mb-2">Skill Badges: Build, Train and Deploy ML Models with Keras on Google Cloud, Launching into Machine Learning, How Google Does Machine
 Learning, Google Cloud Big Data and Machine Learning Fundamentals</p>
 <br></br>
-<p><a color='blue' href='https://partner.cloudskillsboost.google/public_profiles/9c0fe5c1-ad3e-4b46-b7da-a0ed9039429a'>Click to view my Skills Badges on Google Cloud </a></p>
-          <br></br>
+<p><a color='blue' href='https://partner.cloudskillsboost.google/public_profiles/9c0fe5c1-ad3e-4b46-b7da-a0ed9039429a'>Click to view my Skills Badges on Google Cloud </a></p>          <br></br>
           <p className="mb-2">Interests: AI, Businesses, Gym</p>
         </div>
+            <br></br>
         <h2 className="text-2xl font-bold mb-4">DISTINCTIONS</h2>
         <div>
-          <p className="font-semibold mb-2">Excellence Prize Winner, for Top 1.75% National Software Studies certification (CENEVAL)</p>
+          <p className="font-semibold">Excellence Prize Winner, for Top 1.75% National Software Studies certification (CENEVAL)</p>
         </div>
+        <br></br>
         <div>
-          <p className="font-semibold mb-2">1st place in "Hack4Women" Hackathon for Infosys by @adawomenccm.</p>
+          <p className="font-semibold ">1st place in "Hack4Women" Hackathon for Infosys by @adawomenccm.</p>
           <p>Created a chatbot integrated in Facebook and in a web page to help women identify violence against them.</p>
         </div>
+              <br></br>
         <div>
-          <p className="font-semibold mb-2">3rd place in "Expo Engineering" organized by the School of Sciences and Engineering.</p>
+          <p className="font-semibold ">3rd place in "Expo Engineering" organized by the School of Sciences and Engineering.</p>
           <p>For the Call Center (Contact Center) web App with AI for Amazon.</p>
         </div>
       </div>
