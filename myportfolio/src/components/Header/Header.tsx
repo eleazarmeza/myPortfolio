@@ -25,7 +25,7 @@ const Header = () => {
                         title="hi :)"
                     />
                     <span className="text-lg font-bold bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 text-transparent bg-clip-text bg-300% animate-gradient">
-                        Artificial Intelligence Student Portfolio
+                        Artificial Intelligence Developer Portfolio
                     </span>
 
 
