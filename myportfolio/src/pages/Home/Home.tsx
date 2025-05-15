@@ -1,6 +1,44 @@
 import React from 'react'
+import ceneval from '../../assets/Ceneval.png';
+
+
+const googleCloudProfileUrl = 'https://partner.cloudskillsboost.google/public_profiles/9c0fe5c1-ad3e-4b46-b7da-a0ed9039429a';
+
 
 const Home: React.FC = () => {
+
+  // Define the props for the IframeComponent
+interface IframeProps {
+  src: string;
+  title?: string;
+  className?: string;
+}
+
+// Reusable Iframe component
+const IframeComponent: React.FC<IframeProps> = ({
+  src,
+  title = 'Embedded Content', // Default title for accessibility
+  className = '', // Default className for styling
+}) => {
+  return (
+    <iframe
+      src={src}
+      title={title}
+      className={`w-full border-0 ${className}`} // Basic styling: full width, no border
+      allowFullScreen // Allows the iframe to be viewed in fullscreen
+      loading="lazy" // Lazy load the iframe content
+      // Recommended: Set a specific height or use aspect ratio for the iframe
+      // For example, you can pass a height class via `className` prop:
+      // e.g., className="h-96" or className="aspect-video" (if using aspect-ratio plugin)
+    />
+  );
+};
+
+
+
+
+
+
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
@@ -120,7 +158,39 @@ Learning, Google Cloud Big Data and Machine Learning Fundamentals</p>
         </ul>
         <div></div>
       </div>
-    </div>
+      <br></br>
+      <br></br>
+
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">CERTIFICATIONS</h2>
+        <p className="mb-2">CENEVAL: Top 1.75% Student at National Software Studies certification</p>
+        <img src={ceneval} alt="Ceneval" className="max-w-6xl w-full mb-8" />
+      
+          </div>
+
+               {/*           
+      <div className="mb-8">
+          <h2 className="text-2xl font-bold mb-4 text-gray-800">Google Cloud Skills Boost Profile</h2>
+          <div className="w-full h-[500px] md:h-[600px] rounded-lg shadow-lg overflow-hidden border border-gray-200">
+            {/*
+              The IframeComponent is used here.
+              - `h-[500px] md:h-[600px]` sets a fixed height for the iframe container, responsive on medium screens.
+              - You can adjust this height or use Tailwind's aspect-ratio plugin for a responsive aspect ratio.
+                e.g., add `aspect-w-16 aspect-h-9` to the div above and ensure the plugin is installed.
+            */}
+      {/*
+            <IframeComponent
+              src={googleCloudProfileUrl}
+              title="My Google Cloud Skills Boost Profile"
+              // The iframe will take w-full and h-full of its parent div above
+            />
+          </div>
+              
+        </div>
+             */}
+        </div>
+        
+
   );
 }
 
